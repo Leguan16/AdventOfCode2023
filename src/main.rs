@@ -1,10 +1,11 @@
 mod advent_day;
 mod day_one;
-mod advent_day;
+mod day_two;
 
 use day_one::DayOne;
+use day_two::DayTwo;
 use advent_day::Levels;
 
 fn main() {
-    DayOne::level2();
+    DayTwo::level2();
 }
